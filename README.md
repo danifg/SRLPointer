@@ -15,12 +15,13 @@ First of all, you need to include official CoNLL-2009 datasets in the ``data`` f
 
 Please note that for the Czech dataset you must use the script ``convertCZ.py`` instead, since the predicate sense annotation of Czech is simply the lemmatized token of the predicate and, therefore, the conversion process is different.
 
-To train the model, you need to include the pre-trained word embeddings in the ``embs`` folder and run the following script, indicating the model name:
+To train the model, you need to include the pre-trained word embeddings in the ``embs`` folder and run the following script (indicating the model name):
 
     ./scripts/run.sh <model_name>
 
+The script ``run.sh`` is configured for the English dataset, please modify it accordingly to train the model for other CoNLL-2009 languages. 
 
-Finally, to evaluate the best checkpoint on the in-domain and out-of-domain test sets with the oficial script just run (indicating the epoch of the best reported checkpoint on the development set and the model name):
+Finally, to evaluate the best checkpoint on the in-domain and out-of-domain test sets with the oficial script just run (indicating the epoch of the best checkpoint on the development set and the model name):
 
     ./scripts/eval.sh <best_epoch> <model_name>
     

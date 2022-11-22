@@ -30,17 +30,14 @@ Please note that for the Czech dataset you must use the script ``evalCZ.py`` ins
 
 ### Citation
 
-	@inproceedings{ACTUALIZARfernandez-gonzalez-gomez-rodriguez-2020-transition,
-    title = "Transition-based Semantic Dependency Parsing with Pointer Networks",
-    author = "Fern{\'a}ndez-Gonz{\'a}lez, Daniel  and
-      G{\'o}mez-Rodr{\'\i}guez, Carlos",
-    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
-    month = jul,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.acl-main.629",
-    pages = "7035--7046"}
+	@misc{https://doi.org/10.48550/arxiv.2205.10023,
+	doi = {10.48550/ARXIV.2205.10023},
+	url = {https://arxiv.org/abs/2205.10023},
+	author = {Fernández-González, Daniel},
+	keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences, I.2.7, 68T50},
+	title = {Transition-based Semantic Role Labeling with Pointer Networks},
+	publisher = {arXiv},
+	year = {2022},copyright = {arXiv.org perpetual, non-exclusive license}}
     
 ### Acknowledgments
 We acknowledge the European Research Council (ERC), which has funded this research under the European Union’s Horizon 2020 research and innovation programme (FASTPARSE, grant agreement No 714150), ERDF/MICINN-AEI (ANSWER-ASAP, TIN2017-85160-C2-1-R; SCANNER-UDC, PID2020-113230RB-C21), Xunta de Galicia (ED431C 2020/11), and Centro de Investigaci\'on de Galicia ``CITIC'', funded by Xunta de Galicia and the European Union (ERDF - Galicia 2014-2020 Program), by grant ED431G 2019/01. 

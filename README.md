@@ -1,5 +1,5 @@
 # SRLPointer
-This repository includes the code of the transition-based SRL model described in the paper [Transition-based Semantic Role Labeling with Pointer Networks](URL). The implementation is based on the SDP parser by Fernández-González and Gómez-Rodríguez (2020) (https://github.com/danifg/SemanticPointer) and reuses part of its code.
+This repository includes the code of the transition-based SRL model described in the paper [Transition-based Semantic Role Labeling with Pointer Networks](https://arxiv.org/pdf/2205.10023.pdf). The implementation is based on the SDP parser by Fernández-González and Gómez-Rodríguez (2020) (https://github.com/danifg/SemanticPointer) and reuses part of its code.
 
 ### Requirements
 This implementation requires Python 2.7, PyTorch 0.3.1 and Gensim >= 0.12.0.

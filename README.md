@@ -30,14 +30,18 @@ Please note that for the Czech dataset you must use the script ``evalCZ.py`` ins
 
 ### Citation
 
-	@misc{https://doi.org/10.48550/arxiv.2205.10023,
-	doi = {10.48550/ARXIV.2205.10023},
-	url = {https://arxiv.org/abs/2205.10023},
-	author = {Fernández-González, Daniel},
-	keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences, I.2.7, 68T50},
-	title = {Transition-based Semantic Role Labeling with Pointer Networks},
-	publisher = {arXiv},
-	year = {2022},copyright = {arXiv.org perpetual, non-exclusive license}}
+	@article{FERNANDEZGONZALEZ2022110127,
+	title = {Transition-based semantic role labeling with pointer networks},
+	journal = {Knowledge-Based Systems},
+	pages = {110127},
+	year = {2022},
+	issn = {0950-7051},
+	doi = {https://doi.org/10.1016/j.knosys.2022.110127},
+	url = {https://www.sciencedirect.com/science/article/pii/S0950705122012230},
+	author = {Daniel Fernández-González},
+	keywords = {Natural language processing, Computational linguistics, Semantic role labeling, Neural network, Deep learning},
+	abstract = {Semantic role labeling (SRL) focuses on recognizing the predicate-argument structure of a sentence and plays a critical role in many natural language processing tasks such as machine translation and question answering. Practically all available methods do not perform full SRL, since they rely on pre-identified predicates, and most of them follow a pipeline strategy, using specific models for undertaking one or several SRL subtasks. In addition, previous approaches have a strong dependence on syntactic information to achieve state-of-the-art performance, despite being syntactic trees equally hard to produce. These simplifications and requirements make the majority of SRL systems impractical for real-world applications. In this article, we propose the first transition-based SRL approach that is capable of completely processing an input sentence in a single left-to-right pass, with neither leveraging syntactic information nor resorting to additional modules. Thanks to our implementation based on Pointer Networks, full SRL can be accurately and efficiently done in O(n2), achieving the best performance to date on the majority of languages from the CoNLL-2009 shared task.}
+	}
     
 ### Acknowledgments
 We acknowledge the European Research Council (ERC), which has funded this research under the European Union’s Horizon 2020 research and innovation programme (FASTPARSE, grant agreement No 714150), ERDF/MICINN-AEI (ANSWER-ASAP, TIN2017-85160-C2-1-R; SCANNER-UDC, PID2020-113230RB-C21), Xunta de Galicia (ED431C 2020/11), and Centro de Investigaci\'on de Galicia ``CITIC'', funded by Xunta de Galicia and the European Union (ERDF - Galicia 2014-2020 Program), by grant ED431G 2019/01. 
